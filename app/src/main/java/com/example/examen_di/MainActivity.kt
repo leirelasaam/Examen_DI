@@ -54,7 +54,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Row(
             modifier = Modifier
                 .background(Color.Gray)
-                .padding(0.dp, 10.dp)
+                .padding(0.dp, 40.dp)
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.Bottom
